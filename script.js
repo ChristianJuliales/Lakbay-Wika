@@ -81,7 +81,7 @@ const translations = {
     "Goodmorning":"Maayong aga",
     "Goodafternoon":"Maayong hapon",
     "Goodevening":"Maayong gab-i",
-    "Iloveyou":"Palangga ka nako",
+    "I love you":"Palangga ka nako",
     "I don't understand":"Indi ko mahangpan",
     "You're welcome":"Wala 'y problema",
     "Nice to meet you":"Maayo nga makilala ka",
