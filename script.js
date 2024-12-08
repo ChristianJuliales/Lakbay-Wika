@@ -31,6 +31,41 @@ const translations = {
         "Please call a doctor":"Pakitawag ang doktor",
         "May I have the bill?":"Maaari ko bang makuha ang bayarin?"    
     },
+
+    ilo: {
+      "Where is this?":"Sadino iyan?",
+      "How much is the fare?":"Magkano ti pamasahe?",
+      "Delicious":"Naimas",
+      "What is your name?":"Ania ti nagan mo?",
+      "How are you?":"Kasatno ka?",
+      "I have a question":"Adda dak met laeng saludsod",
+      "Can you please take a picture of me?":"Mabalin ak agpa-picture?",
+      "How much is this?":"Sagmano daytoy?",
+      "Thank you":"Agyaman ak",
+      "Did you eat?":"Nangan kan?",
+      "I need help":"Kailangan ko ti tulong yo",
+      "Goodbye":"Adiyo",
+      "Excuse me":"Pagdespensarem apo",
+      "Good morning":"Naibbag nga bigat",
+      "Good afternoon":"Naimbag nga malem",
+      "Good evening":"Naimbag nga rabii",
+      "I love you":"Ayyeknak ka",
+      "I don't understand":"Dyak maawatan",
+      "You're welcome":"Awan problema",
+      "Nice to meet you":"Naimsem ti makilala ka",
+      "I'm hungry":"Mabisin ak",
+      "No problem":"Awan problema",
+      "How old are you?":"Mano tawon mon?",
+      "Where is the restroom?":"Sadino ti banyo?",
+      "I feel sick":"Madi iti bagik",
+      "I have some trouble":"Adda problemak",
+      "I want a translator":"Kayat ko ti magunta ti translator",
+      "It hurts":"Masakit",
+      "Please call a doctor":"Paki-ayaban ti doktor",
+      "May I have the bill?":"Paki-abot man ti bayaran"    
+  },
+
+
     pam: {
       "Where is this?": "Nunu ya iti?",
       "How much is the fare?": "Magkano ya pamasahe?",
