@@ -8,8 +8,17 @@
 </head>
 <body>
   <div class="container">
-    <h1>Lakbay Wika</h1>
-    <div>
+    <div class="header">
+      <h1>Lakbay Wika</h1>
+      <label class="dark-mode-toggle">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider">
+          <span class="icon sun">☀</span>
+          <span class="icon moon">🌙</span>
+        </span>
+      </label>
+    </div>
+  <div>
       <label for="phraseSelect">Select a word/phrase:</label>
       <select id="phraseSelect">
         <option value="">--Select a word/phrase--</option>
@@ -62,7 +71,7 @@
     </div>
     <button id="translateButton">Translate</button>
     <h2>Translated Text:</h2>
-    <div id="outputText"></div>
+    <div id="outputText"class="output-box"></div>
   </div>
   <script src="script.js"></script>
 </body>

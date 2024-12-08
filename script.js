@@ -298,11 +298,22 @@ const translations = {
   };
   
  // Event listener for the translate button
-    document.getElementById("translateButton").addEventListener("click", () => {
-    const phrase = document.getElementById("phraseSelect").value;
-    const language = document.getElementById("languageSelect").value;
+ document.getElementById("translateButton").addEventListener("click", () => {
+  const phrase = document.getElementById("phraseSelect").value;
+  const language = document.getElementById("languageSelect").value;
+
+  const translatedText = translations[language]?.[phrase] || "Translation not available.";
+  document.getElementById("outputText").textContent = translatedText;
+});
+
   
-    const translatedText = translations[language]?.[phrase] || "Translation not available.";
-    document.getElementById("outputText").textContent = translatedText;
+  document.getElementById("darkModeToggle").addEventListener("change", (event) => {
+    if (event.target.checked) {
+      document.body.classList.add("dark-mode");
+    } else {
+      document.body.classList.remove("dark-mode");
+    }
   });
+  
+  
   
