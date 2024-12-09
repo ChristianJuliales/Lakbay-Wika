@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="header">
+    <label class="dark-mode-toggle">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider">
+        <span class="icon sun">☀</span>
+        <span class="icon moon">🌙</span>
+      </span>
+    </label>
+  </div>
   <div class="container">
-    <div class="header">
-      <h1>Lakbay Wika</h1>
-      <label class="dark-mode-toggle">
-        <input type="checkbox" id="darkModeToggle">
-        <span class="slider">
-          <span class="icon sun">☀</span>
-          <span class="icon moon">🌙</span>
-        </span>
-      </label>
-    </div>
+    <h1>Lakbay Wika</h1>
   <div>
       <label for="phraseSelect">Select a word/phrase:</label>
       <select id="phraseSelect">
@@ -70,9 +70,14 @@
       </select>
     </div>
     <button id="translateButton">Translate</button>
+  </div> &nbsp; &nbsp;&nbsp;&nbsp;
+
+
+    <div class="translate">
     <h2>Translated Text:</h2>
     <div id="outputText"class="output-box"></div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
