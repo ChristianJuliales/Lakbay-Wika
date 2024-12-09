@@ -272,7 +272,7 @@ const translations = {
       "Can you please take a picture of me?": "Pwede nimo kuhaan ko og litrato?",
       "How much is this?": "Pila ni?",
       "Thank you": "Salamat",
-      "Did you eat?": "Nakakaon ka na ba?",
+      "Did you eat?": "Nakakaon ka na lab?",
       "I need help": "Kinahanglan ko og tabang",
       "Goodbye": "Paalam",
       "Excuse me": "Pasayloa ko",
