@@ -16,8 +16,19 @@
       </span>
     </label>
   </div>
-  
-  <a href="home.html" class="home-link">🏠 Home</a>
+  <nav class="navbar">
+    <div class="left-section">
+      <img src="images/logo.png" alt="Lakbay-Wika Logo" class="logo">
+      <span class="brand-name">Lakbay-Wika</span>
+    </div>
+    <div class="center-section">
+      <span class="welcome-message">Welcome to the Philippines</span>
+    </div>
+    <div class="right-section">
+      <a href="index.html" class="nav-link">🏠 Home</a>
+      <a href="about.html" class="nav-link">About</a>
+    </div>
+  </nav>
 
   <div class="container">
     <h1>Lakbay Wika</h1>
@@ -59,8 +70,8 @@
     </div>
     <div>
       <label for="languageSelect">Translate to:</label>
-      <select id="languageSelect">
-        <option value="">Select Language</option>
+      <select id="languageSelector" onchange="changeBackground()">
+        <option value="default">Select Dialect</option>
         <option value="tl">Tagalog</option>
         <option value="ilo">Ilocano</option>
         <option value="hil">Hiligaynon</option>
@@ -71,6 +82,7 @@
         <option value="mrw">Maranao</option>
         <option value="ceb">Cebuano</option>
       </select>
+      
     </div>
     <button id="translateButton">Translate</button>
   </div> &nbsp; &nbsp;&nbsp;&nbsp;

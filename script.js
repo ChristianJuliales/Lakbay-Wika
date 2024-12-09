@@ -300,7 +300,7 @@ const translations = {
  // Event listener for the translate button
  document.getElementById("translateButton").addEventListener("click", () => {
   const phrase = document.getElementById("phraseSelect").value;
-  const language = document.getElementById("languageSelect").value;
+  const language = document.getElementById("languageSelector").value;
 
   const translatedText = translations[language]?.[phrase] || "Translation not available.";
   document.getElementById("outputText").textContent = translatedText;
@@ -315,5 +315,28 @@ const translations = {
     }
   });
   
+
+function changeBackground() {
+  const language = document.getElementById('languageSelector').value;
+  const body = document.body;
+
+  const backgroundImages = {
+    default: 'url("")',
+    tl: 'url("images/tagalog-bg.jpg")',
+    ilo: 'url("images/ilocano-bg.jpg")',
+    hil: 'url("images/hiligaynon.png")',
+    war: 'url("images/waray.png")',
+    bik: 'url("images/bikol.png")',
+    pam: 'url("images/kapampangan-bg.jpg")',
+    pang: 'url("images/pangasinense-bg.jpg")',
+    mrw: 'url("images/maranao-bg.jpg")',
+    ceb: 'url("images/Cebu.png")',
+  };
+
+  if (backgroundImages[language]) {
+    body.style.backgroundImage = backgroundImages[language];
+  }
+}
+
   
   
