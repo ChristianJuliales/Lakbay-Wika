@@ -174,3 +174,56 @@ button:hover {
   opacity: 1;
   transform: translateY(-50%) translateX(10px);
 }
+
+.home-link{
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3;  
+}
+
+/* Navigation Bar */
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: start; 
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.navbar .brand-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .nav-link{
+  color:#f3f3f3;
+  margin-right: 50px;
+  margin-left: 50px;
+}
