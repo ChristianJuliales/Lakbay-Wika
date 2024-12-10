@@ -322,14 +322,14 @@ function changeBackground() {
 
   const backgroundImages = {
     default: 'url("")',
-    tl: 'url("images/tagalog-bg.jpg")',
-    ilo: 'url("images/ilocano-bg.jpg")',
+    tl: 'url("images/tagalog.png")',
+    ilo: 'url("images/ilocano.png")',
     hil: 'url("images/hiligaynon.png")',
     war: 'url("images/waray.png")',
     bik: 'url("images/bikol.png")',
-    pam: 'url("images/kapampangan-bg.jpg")',
-    pang: 'url("images/pangasinense-bg.jpg")',
-    mrw: 'url("images/maranao-bg.jpg")',
+    pam: 'url("images/kapampangan.png")',
+    pang: 'url("images/pangasinense.png")',
+    mrw: 'url("images/maranao.png")',
     ceb: 'url("images/Cebu.png")',
   };
 
