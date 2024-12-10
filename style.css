@@ -375,20 +375,3 @@ footer {
   width: 100%;
   bottom: 0;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .navbar {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .navbar .nav-links {
-      margin-top: 10px;
-  }
-
-  .about-container {
-      margin: 20px;
-      padding: 15px;
-  }
-}
