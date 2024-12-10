@@ -328,7 +328,7 @@ function changeBackground() {
     war: 'url("images/waray.png")',
     bik: 'url("images/bikol.png")',
     pam: 'url("images/kapampangan.png")',
-    pang: 'url("images/pangasinense.png")',
+    pang: 'url("images/Pangasinense.png")',
     mrw: 'url("images/maranao.png")',
     ceb: 'url("images/Cebu.png")',
   };
