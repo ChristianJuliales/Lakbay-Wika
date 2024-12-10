@@ -176,6 +176,21 @@ button:hover {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
+.dark-mode .about-container {
+  background-color: #333;
+  border: 1px solid #444;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.dark-mode h1 {
+  color: #f9f9f9;
+}
+
+.dark-mode .about-container p {
+  color: #ddd;
+}
+
+
 .dark-mode select,
 .dark-mode button {
   background-color: #444;
@@ -342,27 +357,37 @@ button:hover {
 
 /* About Section */
 .about-container {
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about-container.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
 }
 
 .about-container h1 {
-  text-align: center;
-  font-size: 32px;
-  color: #007bff;
-  margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 20px;
 }
 
 .about-container p {
-  font-size: 18px;
-  line-height: 1.6;
-  text-align: justify;
-  color: #555;
-  margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.about-container.dark-mode p {
+    color: #ccc;
 }
 
 /* Footer */

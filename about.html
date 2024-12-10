@@ -6,8 +6,9 @@
         <title>Lakbay Wika</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="images/logo.png">
-      </head>
+    </head>
 <body>
+
   <nav class="navbar">
     <div class="left-section">
       <img src="images/logo.png" alt="Lakbay-Wika Logo" class="logo">
@@ -20,18 +21,43 @@
       <a href="translate.html" class="nav-link">Translator</a>
     </div>
   </nav>
-  <a href="index.html" class="home-link">🏠 Home</a>
-  <div class="about-container">
-    <h1>About Lakbay-Wika</h1>
-    <p>
-        Lakbay-Wika is an intuitive and accessible mobile and web application designed to seamlessly translate English phrases into Tagalog and the eight major Filipino dialects. By offering accurate, text-based translations, it empowers users to communicate effortlessly with locals, bridging language gaps and enhancing cultural connections. Whether you're a traveler or simply looking to explore the rich diversity of the Philippines, Lakbay-Wika makes language barriers a thing of the past.
-    </p>
-</div>
 
-<!-- Footer Section -->
-<footer>
-    <p>&copy; 2024 Lakbay-Wika. All rights reserved.</p>
-</footer>
-  
+  <!-- Dark Mode Toggle -->
+  <div class="header">
+    <label class="dark-mode-toggle">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider">
+        <span class="icon sun">☀</span>
+        <span class="icon moon">🌙</span>
+      </span>
+    </label>
+  </div>
+
+  <a href="index.html" class="home-link">🏠 Home</a>
+
+  <div class="about">
+    <div class="about-container">
+        <h1>About Lakbay-Wika</h1>
+        <p>
+            Lakbay-Wika is an intuitive and accessible mobile and web application designed to seamlessly translate English phrases into Tagalog and the eight major Filipino dialects. By offering accurate, text-based translations, it empowers users to communicate effortlessly with locals, bridging language gaps and enhancing cultural connections. Whether you're a traveler or simply looking to explore the rich diversity of the Philippines, Lakbay-Wika makes language barriers a thing of the past.
+        </p>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+      <p>&copy; 2024 Lakbay-Wika. All rights reserved.</p>
+  </footer>
+
+  <script>
+      // Dark Mode Toggle Script
+      document.getElementById("darkModeToggle").addEventListener("change", (event) => {
+          if (event.target.checked) {
+              document.body.classList.add("dark-mode");
+          } else {
+              document.body.classList.remove("dark-mode");
+          }
+      });
+  </script>
 </body>
 </html>
