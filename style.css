@@ -339,3 +339,56 @@ button:hover {
 .content {
   padding-top: 60px; /* Add padding to avoid content being hidden under the fixed navbar */
 }
+
+/* About Section */
+.about-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar .nav-links {
+      margin-top: 10px;
+  }
+
+  .about-container {
+      margin: 20px;
+      padding: 15px;
+  }
+}
